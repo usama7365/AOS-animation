@@ -1,0 +1,568 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ .head
+{
+    font-size: 35px;
+    cursor: pointer;
+    top: 10px;
+    position: relative;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: 2s;
+    
+}
+ .head:hover
+{
+    color: rgb(20, 18, 18);
+    transform: translate(20px);
+    transition: 2s;
+}
+.nave
+{
+    position: relative;
+    /* border: 2px solid blue; */
+    top: 20vh;
+}
+.nave ul
+{
+    position: relative;
+    list-style-type: none;
+
+}
+.nave li
+{
+    display: inline-block;
+    padding-left: 10vw;
+    transition-property: transform;
+    transition-duration: 2s;
+    font-size: 19px;
+    color: blue;
+    cursor: pointer;
+}
+.nave li:hover
+{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.container
+{
+    height: 60vh;
+    width: 100%;
+    /* border: 1px solid; */
+    position: relative;
+    top: 30vh;
+}
+.left
+{
+    position: absolute;
+    top: 4vh;
+    left: 5vh;
+    height: 50vh;
+    width: 40%;
+    /* border: 2px solid; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.left img
+{
+    transition-duration: 3s;
+    transition-property: transform;
+}
+.left img:hover
+{
+    transform: scale(1.1);
+    transition: 3s;
+        
+}
+.right
+{
+    position: absolute;    
+    width: 45%;
+    height: 50vh;
+    overflow: hidden;
+    right: 0;
+    transition-duration: 4s;
+    transition-property: transform;
+
+}
+.right:hover
+{
+    transform: skewX(10deg);
+    transition: 4s;
+
+}
+.right h2
+{
+    right: 20vw;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 7vh;
+    transition-property: transform;
+    transition-duration: 2s;
+
+
+}
+.right h2:hover
+{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.right p
+{
+    cursor: pointer;
+    top: 18vh;
+    position: relative;
+    transition-property: transform;
+    transition-duration: 6s;
+
+}
+.right p:hover
+{
+    transform: translate(10px);
+    
+}
+.right button
+{
+    top: 20vh;
+    position: relative;
+    left: 16vw;
+    width: 10vw;
+    height: 7vh;  
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px ;  
+    background-image: linear-gradient(to bottom left, blue, white);
+}
+.space
+{
+    position: relative;
+    top: 40vh;
+    /* border: 1px solid; */
+    height: 40vh;
+    width: 100%;
+}
+.images
+{
+    height: 120vh;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+    top: 40vh;
+}
+.images h1
+{
+    position: absolute;
+    left: 42vw;
+}
+.transformation
+{
+    top: 15vh;
+    width: 100%;
+    height: 70vh;
+    background-size: 100% 100%;
+    position: relative;
+    display: inline-block;
+}
+.images h1
+{
+    transition-duration: 2s;
+    transition: 2s;
+    cursor: pointer;
+}
+.images h1:hover
+{
+    transform: translate(10px);
+    transition: 2s;
+}
+.img1
+{
+    left: 9vw;
+    position: absolute;
+    height: 30vh;
+    width: 20vw;
+}
+.img1 img
+{
+    border-radius: 10px;
+    transform: skewY(-9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    transition: 2.2s;
+    height: 39vh;
+    width: 19vw;
+    overflow: hidden;
+}
+.img1 img:hover
+{
+    transform: skewy(6deg);
+    transition: 2.2s;
+}
+.img2
+{
+    left: 30vw;
+    position: absolute;
+    height: 30vh;
+    width: 20vw;
+}
+.img2 img
+{
+    border-radius: 10px;
+    transform: skewY(9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+}
+.img2 img:hover
+{
+    transform: skewy(-6deg);
+    transition: 2.2s;
+}
+.img3
+{
+    left: 52vw;
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+}
+.img3 img
+{
+    border-radius: 10px;
+    transform: skewY(-9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+}
+.img3 img:hover
+{
+    transform: skewy(6deg);
+    transition: 2.2s;
+}
+.img4
+{
+    left: 73vw;
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+}
+.img4 img
+{
+    border-radius: 10px;
+    transform: skewY(6deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+}
+.img4 img:hover
+{
+    transform: skewy(-9deg);
+    transition: 2.2s;
+}
+/* 2nd bar styling */
+.transformation2
+{
+    clear: both;
+    height: 70vh;
+    width: 100%;
+}
+.img5
+{
+    left: 9vw;
+    position: absolute;
+    height: 30vh;
+    width: 20vw;
+}
+.img5 img
+{
+    border-radius: 10px;
+    transform: skewY(-9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    transition: 2.2s;
+    height: 39vh;
+    width: 19vw;
+    overflow: hidden;
+}
+.img5 img:hover
+{
+    transform: skewy(6deg);
+    transition: 2.2s;
+}
+.img6
+{
+    left: 30vw;
+    position: absolute;
+    height: 30vh;
+    width: 20vw;
+}
+.img6 img
+{
+    border-radius: 10px;
+    transform: skewY(9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+}
+.img6 img:hover
+{
+    transform: skewy(-6deg);
+    transition: 2.2s;
+}
+.img7
+{
+    left: 52vw;
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+}
+.img7 img
+{
+    border-radius: 10px;
+    transform: skewY(-9deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+}
+.img7 img:hover
+{
+    transform: skewy(6deg);
+    transition: 2.2s;
+}
+.img8
+{
+    left: 73vw;
+    position: absolute;
+    height: 40vh;
+    width: 20vw;
+}
+.img8 img
+{
+    border-radius: 10px;
+    transform: skewY(6deg);
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    /* box-shadow: ; */
+    height: 39vh;
+    transition: 2.2s;
+    width: 19vw;
+    overflow: hidden;
+    clear: both;
+}
+.img8 img:hover
+{
+    transform: skewy(-9deg);
+    transition: 2.2s;
+}
+.footer
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid; */
+}
+.heading_footer h1
+{
+    left: 45%;
+    position: absolute;
+}
+.footer_images
+{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid; */
+    position: absolute;
+    top: 20vh;
+}
+.img9
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 8vw;
+}
+.img9 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+    transform: skewX(20deg);
+}
+.img9 img:hover
+{
+    transform: skewX(-10deg);
+    transition-duration: 3s;
+}
+.img10
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 30vw;
+}
+.img10 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+    transform: skewY(20deg);
+}
+.img10 img:hover
+{
+    transform: rotate(-10deg);
+    transition-duration: 3s;
+}
+.img11
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 54vw;
+}
+.img11 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+
+}
+.img11 img:hover
+{
+    transform: skewY(10deg);
+    transition-duration: 3s;
+}
+.img12
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 74.5vw;
+}
+.img12 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+
+}
+.img12 img:hover
+{
+    transform: skewY(10deg);
+    transition-duration: 3s;
+}
+.last_images
+{
+    position: absolute;
+    height: 20vh;
+    width: 100%;
+    top: 70vh;
+    /* border: 2px solid green; */
+}
+.img13
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 10vw;
+}
+.img13 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+    transform: skewX(20deg);
+}
+.img13 img:hover
+{
+    transform: skewX(-10deg);
+    transition-duration: 3s;
+}
+.img14
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 32vw;
+}
+.img14 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+    transform: skewY(20deg);
+}
+.img14 img:hover
+{
+    transform: rotate(-10deg);
+    transition-duration: 3s;
+}
+.img15
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 53.5vw;
+}
+.img15 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+
+}
+.img15 img:hover
+{
+    transform: skewY(10deg);
+    transition-duration: 3s;
+}
+.img16
+{
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    left: 75vw;
+}
+.img16 img
+{
+    height: 39vh;
+    width: 19vw;
+    box-shadow: 5px -5px 8px 5px rgb(6, 165, 144);
+    border-radius: 10px;
+    transition: 3s;
+
+}
+.img16 img:hover
+{
+    transform: skewY(10deg);
+    transition-duration: 3s;
+}
